@@ -2,10 +2,25 @@
 //
 
 #include <iostream>
+using namespace std;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	int tab[10];
+	for (int i = 0; i < 10; i++) {
+		cout << "podaj liczbe calkowita ";
+		cin >> tab[i];
+	}
+	for (int k = 9; k >=0 ; k--) {
+		cout << tab[k]<< endl ;
+	}
+
+
+
+
+
 }
 
 
