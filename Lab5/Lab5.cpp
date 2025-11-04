@@ -37,6 +37,24 @@ int main() {
 
 }
 */
+//zd.3
+#include <cstdlib>
+int main() {
+	int tab[10];
+	double srednia = 0;
+	
+	for (int i = 0; i < 10; i++) {
+		tab[i] = rand() % 10 ;
+	}
+	for (int k = 0; k < 10; k++) {
+		cout << tab[k] << endl;
+		srednia = tab[k] + srednia;
+	}
+	srednia = srednia / 10;
+	cout << srednia << endl;
+
+}
+
 
 
 
